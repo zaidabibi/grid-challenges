@@ -1,0 +1,154 @@
+/*temporary pictures added,was suppose to add on the 2/5/2018,didnt make it to class  */
+/* layout of my webpage */
+.grid-container{
+  display:grid;
+  grid-template-columns: repeat(10,1fr);
+  grid-auto-rows: 100px;
+  grid-gap: 10px;
+    background-color: lightblue;
+  }
+  /* layout*/
+  .item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 12;
+    border: 2px solid silver;
+    background-color: silver;
+    margin-top: -10px;
+    margin-left: -10px;
+    }
+      .item2{
+        grid-column-start: 11;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 5;
+        border: 0px solid black;
+
+      }
+        .item3{
+          grid-column-start: 4;
+          grid-column-end: 7;
+          grid-row-start: 2;
+          grid-row-end: 4;
+          border: 2px solid black;
+        background-image: url(../images/aurora.jpg);
+        background-size: cover;
+        }
+          .item4{
+            grid-column-start: 8;
+            grid-column-end: 11;
+            grid-row-start: 2;
+            grid-row-end: 5;
+            border: 2px solid black;
+          background-image: url(../images/aurora_2.jfif);
+          background-size: cover;
+          }
+          .item5{
+            grid-column-start: 3;
+            grid-column-end: 11;
+            grid-row-start: 5;
+            grid-row-end: 8;
+            border: 0px solid black;
+
+          }
+          .item6{
+            grid-column-start: 4;
+            grid-column-end: 7;
+            grid-row-start: 5;
+            grid-row-end: 7;
+            border: 2px solid black;
+            background-image: url(../images/animal_1.jfif);
+            background-size: cover;
+          }
+          .item7{
+            grid-column-start: 8;
+            grid-column-end: 11;
+            grid-row-start: 6;
+            grid-row-end: 9;
+            border: 2px solid black;
+            background-image: url(../images/animal_2.jfif);
+           background-size: cover;
+          }
+            .item8{
+              grid-column-start: 3;
+              grid-column-end: 11;
+              grid-row-start: 8;
+              grid-row-end: 12;
+              border: 0px solid black;
+
+            }
+              .item9{
+                grid-column-start: 4;
+                grid-column-end: 7;
+                grid-row-start: 8;
+                grid-row-end: 12;
+                border: 2px solid black;
+                background-image: url(../images/twilight.jfif);
+                background-size: cover;
+              }
+                      .item10{
+                        grid-column-start: 8;
+                        grid-column-end: 11;
+                        grid-row-start: 9;
+                        grid-row-end: 12;
+                        border: 2px solid black;
+                      background-image: url(../images/twilight_2.jfif);
+                      background-size: cover;
+                      }
+
+/* below is the code used to style the more finer things other than the divs itself. */
+
+img{
+  position: absolute;
+  left: 40px;
+  top:54px;
+  border-radius:50% ;
+}
+/*navbar styling  */
+ul{
+  margin-top: 0%;
+  list-style-type: none;
+  margin-left: -14%;
+  font-style: italic;
+}
+li a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #555;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+h3{
+  margin-top: 70%;
+  margin-left: 15%;
+}
+p{
+  margin-top: 5%;
+  margin-left: 10px;
+  font-family: arial;
+  text-align: center;
+}
+
+h2,h3{
+  text-align: center;
+}
